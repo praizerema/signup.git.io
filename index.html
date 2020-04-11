@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -67,7 +68,7 @@
           </defs>
         </svg>
       </div>
-      <div class="signup-wrap">
+      <div class="signup-wrap" id="sign">
         <h1 class="title-text">Create a Secure Account</h1>
 
         <p class="detail-text">
@@ -146,19 +147,22 @@
     </div>
   </body>
 
-  <style>
+  <style type="text/css">
     body{
       background-image: url("piggyBD1.png") !important;
       background-size: 100% 100%!important;
+      overflow: scroll !important;
+    
     }
     .signup-page {
       font-family: U8, sans-serif !important;
+      overflow: scroll !important;
+
     }
     .signup-wrap {
       background-color: #fff;
       margin: auto;
-      width: 28%;
-      /* margin-top: 20px; */
+      width: 300px;
       padding: 30px;
       border-bottom-right-radius: 1.25rem;
       border-top-left-radius: 1.25rem;
